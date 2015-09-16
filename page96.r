@@ -1,11 +1,11 @@
-##############################################
-# Shape types of a histogram                 #
-# Book: Statistics (The Easier Way) With R   #
-# Author: Nicole Radziwll @nicoleradziwill   #
-# Code from page 96 to 97                    #
-# Comments by: Arturo Mora-Soto @jarturomora #
-#              Marked as #JAMS               #
-##############################################
+###############################################
+# Shape types of a histogram                  #
+# Book: Statistics (The Easier Way) With R    #
+# Author: Nicole Radziwill @nicoleradziwill   #
+# Code from page 96 to 97                     #
+# Comments by: Arturo Mora-Soto @jarturomora  #
+#              Marked as #JAMS                #
+###############################################
 
 # This line sets up a plotting area that has 3 rows and 2 columns
 par(mfrow=c(3,2))
