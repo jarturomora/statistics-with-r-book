@@ -1,9 +1,11 @@
-############################################
-# Shape types of a histogram               #
-# Book: Statistics (The Easier Way) With R #
-# Author: Nicole Radziwll                  #
-# Code from page 96 to 97                  #
-############################################
+##############################################
+# Shape types of a histogram                 #
+# Book: Statistics (The Easier Way) With R   #
+# Author: Nicole Radziwll @nicoleradziwill   #
+# Code from page 96 to 97                    #
+# Comments by: Arturo Mora-Soto @jarturomora #
+#              Marked as #JAMS               #
+##############################################
 
 # This line sets up a plotting area that has 3 rows and 2 columns
 par(mfrow=c(3,2))
@@ -60,4 +62,5 @@ x <- runif(100000000,0,6)
 # Now plot the histogram in gray, limiting the extent of the x-axis
 # to between 0 and 6 so that only our values show, with 7 bars, erasing
 # all axis labels
+#JAMS This histogram will take a little bit more time to be displayed, so be patient (it depends on you computer)
 hist(x,col="#cccccc",breaks=7,axes=FALSE,xlab="",main=label)
