@@ -26,7 +26,6 @@ abline(v = mean(temps), lwd = 5, col = "red")
 abline(v = median(temps), lwd = 3, col = "blue")
 
 # Drawing a box plot with comprenhensive labeling
-
 # Generating random data to plot
 dfx <- data.frame(
 	group = c(rep('A', 8), rep('B', 15), rep('C',6)),
