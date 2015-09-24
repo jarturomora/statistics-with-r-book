@@ -38,4 +38,4 @@ my.labels <- round(fivenum(dfx$age), digits = 2)
 # Creating the box plot for the Age variable of the dfx data frame
 boxplot(dfx$age, horizontal = T, ylim = c(10, 60), col = "lightgray", add = F, main = "Distribution of Ages")
 # Finally we add the labels we define previously to put the five numbers over the box plot.
-text(x = my.labels, y = c(1.15, 1.25, 1.25, 1.25, 1.15), labels = my.labels)
+text(x = my.labels, y = c(1.15, 1.25, 1.25, 1.25, 1.15), labels = my.labels, col = "red")
