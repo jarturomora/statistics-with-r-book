@@ -41,7 +41,10 @@ label="Bimodal Asymmetric"
 # distribution with mean of 4 and standard deviation of 1 (so they have
 # distinctly different peaks, and so the first peak is not as high as
 # the second peak). Mash all the data together to form x.
-x <- c(rnorm(60000,0,1),rnorm(100000,4,1))
+
+# x <- c(rnorm(60000,0,1),rnorm(100000,4,1))
+x <- c(rnorm(60000,4,1),rnorm(100000,0,1))
+
 # Now plot the histogram in gray, with 100 bars, erasing all axis labels
 hist(x,col="#cccccc",breaks=100,axes=FALSE,xlab="",main=label)
 
