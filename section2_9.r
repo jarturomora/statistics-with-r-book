@@ -108,3 +108,9 @@ for (n in 0:20) {
 	text(n, 0.45, n)
 }
 box()
+
+# The Scatterplot Matrix
+new.window("bill")
+plot.new()
+# Creating a group of scatteredplots for all the rows of shd.dx and only the first ten columns.
+pairs(shd.wx[, 1:10])
