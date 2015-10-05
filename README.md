@@ -19,6 +19,7 @@ These code examples are sligthly customized by me in order to ease their underst
 * **section2_7.r -** This file contains the code corresponding to Section 2.7 Pareto Charts; starting with this code and so on I will use the function 'new.window()' that is defined on the file new.window.r.
 * **section2_8.r -** This file contains the code corresponding to Section 2.8 QQ Plots and Test for Normality. I added some extra code to ilustrate different skewness.
 * **section2_9.r -** This file contains the code corresponding to Section 2.9 Scatterplots, Covariance, and Correlation.
+* **section2_10.r - ** This file contains the code corresponding to Section 2.10 Contigency Tables. This code uses the table() and CorssTable() functions.
 
 ### Some Extra Code from Philosophical Sessions Between [El Viejo](https://github.com/elviejo79) and me
 
