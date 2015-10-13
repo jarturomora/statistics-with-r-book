@@ -67,3 +67,28 @@ x <- runif(100000000,0,6)
 # all axis labels
 #JAMS This histogram will take a little bit more time to be displayed, so be patient (it depends on you computer)
 hist(x,col="#cccccc",breaks=7,axes=FALSE,xlab="",main=label)
+
+# JAMS This code is to create an histogram in terms of density+
+# Import my windows creation function
+source("new.window.r")
+new.window("bill")
+par(mfrow = c(1,2))
+data <- rbeta(5000, 5, 2)
+hist(
+	data,
+	col = "blue",
+	xlab = "Our Randomly Sampled Values",
+	ylab = "Frequency of Occurrence",
+	main = "Histogram in Terms of Frequency",
+	breaks = 10
+)
+hist(
+	data,
+	col = "orange",
+	xlab = "Our Randomly Sampled Values",
+	ylab = "Density",
+	main = "Histogram in Terms of Density",
+	breaks = 10,
+	freq = FALSE
+)
+lines(density(data), lty = "dotted", lwd = 3)

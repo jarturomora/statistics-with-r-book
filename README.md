@@ -7,7 +7,7 @@ These code examples are sligthly customized by me in order to ease their underst
 
 ## Files Description
 
-### Code for Book Section
+### Section 2: Charts, Graphs, and Plots
 
 * **section2_1.r -** This file contains the code corresponding to Section 2.1 Bar Chars.
 * **section2_2.r -** This file contanis the code corresponding to Section 2.2 Histograms, specifically the code to create several examples of histograms.
@@ -20,6 +20,10 @@ These code examples are sligthly customized by me in order to ease their underst
 * **section2_8.r -** This file contains the code corresponding to Section 2.8 QQ Plots and Test for Normality. I added some extra code to ilustrate different skewness.
 * **section2_9.r -** This file contains the code corresponding to Section 2.9 Scatterplots, Covariance, and Correlation.
 * **section2_10.r - ** This file contains the code corresponding to Section 2.10 Contigency Tables. This code uses the table() and CorssTable() functions.
+
+### Section 3: Fundations For Your Research
+
+* **section3_1.r - ** This file contains the code corresponding to Section 3.1 Randomness and Sampling Strategies. This is a very simple code that just plot a barchart, however the rationale about sampling in this section is quite interesting; I urge you to compliment this section by reading this essay about [Sampling Strategies](http://dissertation.laerd.com/sampling-strategy.php).
 
 ### Some Extra Code from Philosophical Sessions Between [El Viejo](https://github.com/elviejo79) and me
 
